@@ -9,9 +9,9 @@ SolTrenchAPI is a case study of a private Solana API platform for realtime block
 - unsigned transaction construction followed by explicit local signing
 - simulation and broadcast boundaries
 - provider failure handling and observability
-- tests, QA and benchmark methodology
+- tests, QA and benchmark evidence
 
-The examples use dummy or devnet-shaped inputs. They do not connect to production systems and contain no credentials.
+Public examples use local or Solana devnet data and do not connect to production systems. They contain no credentials.
 
 ## Architecture
 
