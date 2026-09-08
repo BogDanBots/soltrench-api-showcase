@@ -1,14 +1,16 @@
 # Benchmark methodology
 
-The public version should report a measurement only when the evidence records:
+This showcase intentionally publishes no numeric benchmark result. A useful
+measurement needs all of the following context:
 
 | Field | Required detail |
-|---|---|
+| --- | --- |
 | Operation | The exact operation measured, such as a build, validation or observed API response. |
-| Environment | Local, devnet or other environment; relevant machine/runtime conditions. |
+| Environment | Local, devnet or another environment, including relevant machine and runtime conditions. |
 | Sample | Request count, warm-up policy and whether failures were included. |
-| Timing | Definition of start/end timestamps and percentile or summary used. |
-| Dependencies | Provider/data mode and whether the measurement includes network time. |
-| Limitations | What the result does not prove. |
+| Timing | Start and end timestamp definitions plus the percentile or summary used. |
+| Dependencies | Provider or data mode and whether network time is included. |
+| Limitations | What the measurement does not prove. |
 
-No generic “low latency” or “production performance” claim should be published without this context. The approximately 200 ms class observation mentioned in planning is not included here as a result until its exact evidence and measurement boundary are verified.
+Without that context, the repository makes no generic latency or production
+performance claim.

@@ -1,4 +1,4 @@
-/** Fresh portfolio example; it does not use production endpoints or code. */
+/** Demo client for the local example API; it does not use production code. */
 
 type DemoStatus = {
   status: string;

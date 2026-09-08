@@ -1,12 +1,13 @@
-# Screenshot provenance and redaction plan
+# Screenshots
 
-The source paths and provenance are kept in the private local evidence inventory, not in this public repository. Before adding an image, inspect the full-resolution capture and remove or replace:
+No screenshots are published in this repository yet.
 
-- production domains and private URLs;
-- wallet, token, mint, transaction and account identifiers;
-- API keys, bearer tokens and request headers;
+Any future image must be reviewed at full resolution and use a clean demo or
+devnet environment where possible. It must not expose:
+
+- production domains or private URLs;
+- wallet, token, mint, transaction or account identifiers;
+- API keys, bearer tokens or request headers;
 - live provider, RPC, database or deployment state;
-- benchmark values whose conditions are not documented;
+- benchmark values whose conditions are undocumented;
 - customer, operator or internal project names.
-
-Prefer a clean demo capture with dummy/devnet data over a redacted production screen.

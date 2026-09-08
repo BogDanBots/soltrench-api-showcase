@@ -19,7 +19,7 @@ The public architecture is intentionally high-level:
 
 `Client → authenticated API boundary → validation/build layer → simulation boundary → client-controlled signing → optional broadcast`
 
-The repository does not publish production endpoints, RPC routing, deployment topology, transaction-building internals or trading logic. See the accompanying architecture and security notes for the reviewable abstraction.
+The repository does not publish production endpoints, RPC routing, deployment topology, transaction-building internals or trading logic. The accompanying architecture and security notes define the reviewable abstraction.
 
 ## Evidence policy
 
