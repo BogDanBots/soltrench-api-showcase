@@ -13,6 +13,21 @@ SolTrenchAPI is a case study of a private Solana API platform for realtime block
 
 Public examples use local or Solana devnet data and do not connect to production systems. They contain no credentials.
 
+## Review path
+
+This repository is intentionally documentation-first. The runnable product
+surface is the [SolTrench closed-beta site](https://soltrench.io/); this repo is
+the sanitized engineering companion for a prospect or reviewer. A quick review
+path is:
+
+1. Read the [architecture note](docs/architecture.md) and [security model](docs/security-model.md).
+2. Check the [benchmark methodology](docs/benchmarks.md) and
+   [testing/reliability notes](docs/testing-reliability.md).
+3. Browse the [redacted product screenshots](screenshots/).
+
+The screenshots and written evidence are illustrative and do not represent a
+production credential, endpoint, or private deployment detail.
+
 ## Architecture
 
 The public architecture is intentionally high-level:
